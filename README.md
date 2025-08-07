@@ -82,4 +82,4 @@ This part of the program will print "Status: Pending - Approved" for its StringB
 ### Observation:
 This happens because we appended the word "Pending" to the original message, then we
 converted it to a String object. However, after converting, we once again appended the word " - Approved"
-to the StringBuilder variable only. 
+to the StringBuilder variable only. This will not affect the Final String variable because Strings are immutable in nature.
